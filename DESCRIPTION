@@ -1,0 +1,19 @@
+Package: round2
+Type: Package
+Title: Formatted Founding Function
+Version: 1.0.0
+Authors@R: c(
+    person(
+      "R. Noah", "Padgett",
+      email = "npadgettquant@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: A better rounding function for printing out tables and within
+    figure text that preserves trailing 0s. Helpful when constructing tables
+    from vectors of numeric values that you would like to have a consistent 
+    format (number of printed digits).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.1

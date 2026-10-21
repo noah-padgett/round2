@@ -1,0 +1,51 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# round2
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of round2 is to provide a better formatted rounding function for when 
+exporting tables and figures with possibly trailing 0s in the decimal place.
+The aim is to have as little of impact on the code written as possible while
+giving the requested format in the results.
+
+## Installation
+
+You can install the development version of round2 like so:
+
+``` r
+#install.packages("pak")
+pak::pkg_install("noah-padgett/round2")
+```
+
+## Example
+
+Here is the basic utility of this incredibly simple package:
+
+```{r example}
+library(round2)
+x <- c(1.024, 1.110, 1.2)
+round2(x)
+round2(x, digits = 3)
+round2(x, digits = 4)
+# verses the default round function when "pasting" to characters
+paste0(round(x))
+paste0(round(x, digits = 2))
+paste0(round(x, digits = 3))
+paste0(round(x, digits = 4))
+```
+
