@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/noah-padgett/round2/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/noah-padgett/round2/blob/V1.0.0/DESCRIPTION)
 
 Padgett R (2026). *round2: Formatted Founding Function*. R package
 version 1.0.0, <https://github.com/noah-padgett/round2>.
